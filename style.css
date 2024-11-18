@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h3 {
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+p{
+    text-align: justify;
+}
+
+section {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Mode berantakan */
+.messy-mode body {
+    color: #ff00ff;
+    background-color: #333333;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.messy-mode header {
+    background-color: #392825;
+    color: yellow;
+}
+
+.messy-mode section {
+    background-color: #a67a68;
+    border: 1px dashed black;
+}
